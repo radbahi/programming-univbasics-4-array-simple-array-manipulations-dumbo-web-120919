@@ -14,6 +14,7 @@ def pop_with_args(dog_breeds)
   dog_breeds.pop(2)
 end
   
+<<<<<<< HEAD
 def using_shift(my_favorite_cities)
  im_so_over_this_city = my_favorite_cities.shift
 end
@@ -50,3 +51,9 @@ end
   
   
   
+=======
+def using_shift(im_so_over_this_city, my_favorite_cities)
+  my_favorite_cities.shift(2)
+end
+
+>>>>>>> 91a12f5823b4e6916cf1b135bdc43865c52815e2
